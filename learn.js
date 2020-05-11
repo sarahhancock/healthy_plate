@@ -42,7 +42,7 @@ function drawChart() {
           dict = foods[i]
           if (dict["category"] == category) {
             col = $("<div class = 'col-md-2'>")
-            image = $("<img class = 'img-fluid food'>")
+            image = $("<img class = 'img-fluid img food'>")
             image.attr("src", dict["image"])
             image.attr("id", dict["name"])
             col.append(image)
